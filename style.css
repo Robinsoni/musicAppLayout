@@ -95,4 +95,38 @@ section.right-footer{
 	
 }
 
+@media screen and (max-width: 700px) {  
+	aside{
+		display:none;
+	}
+
+	main .music-head {
+		flex-direction:column;
+		justify-content:space-between;
+	}
+	.music-head img{
+		margin:auto;
+	}
+	.catty-music{
+		padding-left: 0px;
+	}
+	.catty-music div{
+		text-align: center;
+		padding-top: 5px;
+	}
+	.music-list li p:nth-child(2n) {
+		display:none;
+	}
+	.music-list li p{
+		flex: 0 0 80%;
+	}
+	footer img{
+		display: none;
+	}
+	footer .right-footer i:nth-child(3), i:nth-child(5){
+		display:none;
+	}
+
+}
+
 
